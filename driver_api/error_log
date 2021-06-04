@@ -1,0 +1,1501 @@
+[17-Feb-2021 23:50:40 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:50:56 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:04 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:12 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:16 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:16 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:18 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:21 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:21 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:23 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[17-Feb-2021 23:51:32 UTC] PHP Notice:  Undefined index: driver_phone in /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php on line 16
+[12-Mar-2021 13:45:09 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'ParentTokens' not found in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 31
+[12-Mar-2021 13:46:04 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'ParentTokens' not found in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 31
+[12-Mar-2021 14:05:22 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'ParentTokens' not found in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 31
+[12-Mar-2021 14:08:41 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'ParentTokens' not found in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 31
+[12-Mar-2021 14:11:44 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Class 'ParentTokens' not found in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 32
+[12-Mar-2021 14:13:48 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined method Student::read_single() in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php:51
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php on line 51
+[12-Mar-2021 16:39:21 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php(14): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 17:39:23 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/shulevan/public_html/shulevansAPI/core/drivers.php:108
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/drivers.php(108): PDOStatement->bindParam(':date_recorded', '2021-03-15 ')
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php(136): Drivers->recordMessage()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/drivers.php on line 108
+[15-Mar-2021 18:54:09 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/record_pickup.php(14): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:54:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:55:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/get_pickup_tally.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[15-Mar-2021 15:57:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/driver_api/read_history.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[30-Apr-2021 20:56:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:56:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:57:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:58:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 20:59:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:00:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
+[30-Apr-2021 21:01:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`shulevan_foxx-tours-v1`.`driver_loc_realtime`, CONSTRAINT `location_driver_phone_update` FOREIGN KEY (`driver_phone`) REFERENCES `drivers` (`phone`) ON DELETE CASCADE ON UPDATE CASCADE) in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php:29
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/driver_location.php(29): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/driver_api/update_location.php(35): DriverLocation->addLocation()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/driver_location.php on line 29
