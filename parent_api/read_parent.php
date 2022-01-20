@@ -26,6 +26,7 @@ $parent_data[] = $parent_row;
 $num = $parent_result->rowCount();
 
 if ($num > 0) {
+
 	echo json_encode($parent_data);
 }else{
 	echo json_encode("error");

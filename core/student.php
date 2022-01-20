@@ -86,7 +86,7 @@ Class Student{
 	}
 
 	public function selectKidsByBus(){
-		$query = "SELECT u.*, s.name as school_name FROM ".$this->table." as u,schools as s WHERE (u.pickup_vehicle=:bus) or (u.dropping_vehicle=:bus2)";
+		$query = "SELECT u.*, s.name as school_name FROM ".$this->table." as u,schools as s WHERE (u.pickup_vehicle=:bus) or (u.dropping_vehicle=:bus2) GROUP BY u.adm_no";
 		$stmt = $this->conn->prepare($query);
 		$stmt->bindParam(':bus', $this->bus);
 		$stmt->bindParam(':bus2', $this->bus);

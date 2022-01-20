@@ -1,0 +1,538 @@
+[15-Mar-2021 15:59:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/parent_api/read_kids.php(6): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[16-Apr-2021 10:02:53 UTC] PHP Warning:  require_once(/home2/shulevan/public_html/shulevansAPI/includes/includes.php): failed to open stream: No such file or directory in /home2/shulevan/public_html/shulevansAPI/parent_api/reset_password.php on line 14
+[16-Apr-2021 10:02:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home2/shulevan/public_html/shulevansAPI/includes/includes.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/shulevan/public_html/shulevansAPI/parent_api/reset_password.php on line 14
+[19-Apr-2021 01:43:38 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 01:43:38 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 01:43:38 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 01:43:38 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 01:44:29 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 01:44:29 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 01:44:29 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 01:44:29 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 01:44:43 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 01:44:43 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 01:44:43 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 01:44:43 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:02:50 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 02:02:50 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 02:02:50 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 02:02:50 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:02:54 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 02:02:54 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 02:02:54 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 02:02:54 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:03:48 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 02:03:48 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 02:03:48 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 02:03:48 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:03:55 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 02:03:55 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 02:03:55 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 02:03:55 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:04:21 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 18
+[19-Apr-2021 02:04:21 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 19
+[19-Apr-2021 02:04:21 UTC] PHP Notice:  Trying to get property 'address' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 20
+[19-Apr-2021 02:04:21 UTC] PHP Notice:  Trying to get property 'phone' of non-object in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 21
+[19-Apr-2021 02:20:48 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 23
+[19-Apr-2021 02:20:48 UTC] PHP Notice:  Undefined index: phone in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 24
+[19-Apr-2021 02:20:48 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 26
+[19-Apr-2021 02:20:48 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 27
+[19-Apr-2021 02:22:04 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 23
+[19-Apr-2021 02:22:04 UTC] PHP Notice:  Undefined index: phone in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 24
+[19-Apr-2021 02:22:04 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 26
+[19-Apr-2021 02:22:04 UTC] PHP Notice:  Undefined index: address in /home2/shulevan/public_html/shulevansAPI/parent_api/update_address.php on line 27
+[21-Apr-2021 04:23:17 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:23:17 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:23:42 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:23:42 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:27:02 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:27:02 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:27:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:29:35 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:29:35 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:29:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:45:45 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:45:45 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:45:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:46:03 UTC] PHP Notice:  Undefined variable: pickup_vehicle in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 51
+[21-Apr-2021 04:46:03 UTC] PHP Notice:  Undefined variable: driver_pickup_results in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[21-Apr-2021 04:46:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_phone.php on line 53
+[22-Apr-2021 11:10:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/parent_api/register_parent_token.php(9): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[22-Apr-2021 11:10:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/parent_api/read_kids.php(6): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[22-Apr-2021 11:10:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/parent_api/read_parent.php(7): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[30-Apr-2021 21:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DriverLocation::readLocation() in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_location.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_location.php on line 20
+[30-Apr-2021 21:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DriverLocation::readLocation() in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_location.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/parent_api/get_driver_location.php on line 20
+[12-May-2021 17:21:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:21:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:22:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:22:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 17:23:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[12-May-2021 19:20:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/shulevan/public_html/shulevansAPI/includes/config.php:7
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/includes/config.php(7): PDO->__construct('mysql:host=loca...', 'shulevan_begres...', 'Begress123#')
+#1 /home2/shulevan/public_html/shulevansAPI/core/initialize.php(9): require_once('/home2/shulevan...')
+#2 /home2/shulevan/public_html/shulevansAPI/parent_api/reset_password.php(9): include_once('/home2/shulevan...')
+#3 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/includes/config.php on line 7
+[17-May-2021 18:06:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:06:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:06:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:06:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:06:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:07:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:07:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:07:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:08:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:08:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[17-May-2021 18:08:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[28-May-2021 06:03:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[28-May-2021 06:03:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email' in /home2/shulevan/public_html/shulevansAPI/core/parents.php:67
+Stack trace:
+#0 /home2/shulevan/public_html/shulevansAPI/core/parents.php(67): PDOStatement->execute()
+#1 /home2/shulevan/public_html/shulevansAPI/parent_api/update_profile.php(33): Parents->updateProfile()
+#2 {main}
+  thrown in /home2/shulevan/public_html/shulevansAPI/core/parents.php on line 67
+[27-Aug-2021 12:31:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/shulevan/public_html/shulevansAPI/core/initialize.php on line 17
+[27-Aug-2021 12:32:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/shulevan/public_html/shulevansAPI/core/initialize.php on line 17
+[27-Aug-2021 12:32:20 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/shulevan/public_html/shulevansAPI/core/initialize.php on line 17

@@ -8,7 +8,8 @@ class Messages{
 	public $recipient;
 	public $messageType;
 	public $message;
-
+	public $bus;
+	public $school;
 
 	public function __construct($conn){
 		$this->conn = $conn;
@@ -48,6 +49,41 @@ class Messages{
 		$stmt->execute();
 
 		return $stmt;
+	}
+
+	//read parents numbers for kids in the picking bus
+	public function readParentsPhoneByPickupBus(){
+		$query = "SELECT * FROM users WHERE pickup_vehicle=:bus";
+		$stmt = $this->conn->prepare($query);
+		$stmt->bindParam(':bus', $this->bus);
+		$stmt->execute();
+
+		return $stmt;
+	}
+
+	//read parents numbers for kids in the dropping bus
+	public function readParentsPhoneByDroppingBus(){
+		$query = "SELECT * FROM users WHERE dropping_vehicle=:bus";
+		$stmt = $this->conn->prepare($query);
+		$stmt->bindParam(':bus', $this->bus);
+		$stmt->execute();
+
+		return $stmt;
+	}
+
+	public function recordMessage(){
+		$query = "INSERT INTO general_messaging(date_sent, time_sent, recipient, message_type, message, school) VALUES (:date_sent, :time_sent, :recipient,:message_type, :message, :school)"; //Insert query
+		$stmt = $this->conn->prepare($query);
+		$stmt->bindParam('date_sent', $this->date_sent);
+		$stmt->bindParam('time_sent', $this->time_sent);
+		$stmt->bindParam('recipient', $this->recipient);
+		$stmt->bindParam('message_type', $this->messageType);
+		$stmt->bindParam('message', $this->message);
+		$stmt->bindParam('school', $this->school);
+
+		$stmt->execute();
+		return $stmt;
+
 	}
 }
 

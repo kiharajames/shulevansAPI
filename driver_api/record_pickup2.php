@@ -1,26 +1,3 @@
-<?php
-//headers
-// header('Access-Control-Allow-Origin: *');
-// header('Content-Type: application/json');
-// header('Access-Control-Allow-Methods: POST');
-// header('Access-Control-Allow-Methods: GET');
-// header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-Width');
-
-// $data  = $_POST['data'];
-// $data  = $_GET['data'];
-//echo (json_encode($data));
-
-// date_default_timezone_set('Africa/Nairobi');
-
-// $time = date('h:i:s');
-
-// $logFile = "mydata.txt";
-// $log = fopen($logFile, "w");
-
-// $data = $data."|".$time;
-// fwrite($log, $data);
-// fclose($log);
-?>
 
 <?php
 //headers
@@ -43,14 +20,15 @@ require_once(CORE_PATH.DS."student.php");
 require_once(CORE_PATH.DS."drivers.php");
 require_once(CORE_PATH.DS."parent_tokens.php");
 require_once(CORE_PATH.DS."school.php");
-// require_once(CORE_PATH.DS."message_settings.php");
+require_once(CORE_PATH.DS."message_settings.php");
 require_once(CORE_PATH.DS."notifications.php");
+
 
 //instantiate the classes
 $student = new Student($conn);
 $driver = new Drivers($conn);
 $school = new School($conn);
-// $message_settings = new MessageSettings($conn);
+$message_settings = new MessageSettings($conn);
 $notifications = new MobileNotifications();
 $parent_tokens = new ParentTokens($conn);
 
@@ -62,45 +40,20 @@ $parent_tokens = new ParentTokens($conn);
 // $driver->mode = $data->mode;
 
 //get the posted data
-$data  = $_GET['data'];
-$data = explode(":", $data);
-
-$driver->bus = $data[0];
-$student->adm_no = $data[2];
-$driver->adm_no = $data[2];//for recording the pickup event
-$mode = $data[1];
-
-$status = "";
-$message = "";
-
-
-if ($mode == "ds") {
-	$driver->mode = "dropped at school";
-    $status = "dropped at school";
-}
-if ($mode == "ps") {
-	$driver->mode = "left school";
-    $status = "left school";
-}
-if ($mode == "dh") {
-	$driver->mode = "dropped at home";
-    $status = "dropped at home";
-}
-if ($mode == "ph") {
-	$driver->mode = "picked from home";
-    $status = "picked from home";
-}
-
-// $driver->phone = $_POST['driver_phone'];
-// $student->adm_no = $_POST['adm_no'];
-// $driver->adm_no = $_POST['adm_no'];//for recording the pickup event
-// $driver->mode = $_POST['mode'];
+$driver->phone = $_POST['driver_phone'];
+$student->adm_no = $_POST['adm_no'];
+$driver->adm_no = $_POST['adm_no'];//for recording the pickup event
+$driver->mode = $_POST['mode'];
 
 $driver->date_recorded = $date;
 $driver->time_recorded = $time;
 //get the results of the queries
-
+$driver_result = $driver->read_single();
 $student_result = $student->readSingle();
+
+//get the drivers bus
+$driver_row = $driver_result->fetch(PDO::FETCH_ASSOC);
+$driver->bus = $driver_row['bus'];
 
 //get the students point, school, and phone
 $student_row = $student_result->fetch(PDO::FETCH_ASSOC);
@@ -142,29 +95,29 @@ $school_row = $school_results->fetch(PDO::FETCH_ASSOC);
 $school_name = $school_row['name'];
 
 //get the messages set
-// $message_results = $message_settings->getMessage();
-// $message_row = $message_results->fetch(PDO::FETCH_ASSOC);\6
+$message_results = $message_settings->getMessage();
+$message_row = $message_results->fetch(PDO::FETCH_ASSOC);
 
-// $pick_up_message = $message_row['pick_up_message'];
-// $arrival_school_message = $message_row['arrival_school_message'];
-// $departure_message = $message_row['departure_message'];
-// $drop_off_message = $message_row['drop_off_message'];
+$pick_up_message = $message_row['pick_up_message'];
+$arrival_school_message = $message_row['arrival_school_message'];
+$departure_message = $message_row['departure_message'];
+$drop_off_message = $message_row['drop_off_message'];
 
 //get the message to be sent according to the even(status) of that time
 $extra_message = " To give us feedback SMS 0797499554.";
+$mode = $driver->mode;
 
-
-if ($status=="dropped at school") {
-        $message = 'Your child has been dropped off at '.$school_name.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
+if ($mode=="dropped at school") {
+        $message = $arrival_school_message.' at '.$school_name.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
         $sdbus=$student_row ['pickup_vehicle'];
-    }elseif ($status=="left school") {
-        $message = 'Your child has departed '.$school_name.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
+    }elseif ($mode=="left school") {
+        $message = $departure_message.' at '.$school_name.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
         $sdbus=$student_row['dropping_vehicle'];
-    }elseif ($status=="dropped at home") {
-        $message = 'Your child has been dropped at home at '.$pickuppoint.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
+    }elseif ($mode=="dropped at home") {
+        $message = $drop_off_message.' at '.$pickuppoint.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
         $sdbus=$student_row['dropping_vehicle'];
-    }elseif ($status=="picked from home") {
-        $message = 'Your child has been picked from home at '.$pickuppoint.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
+    }elseif ($mode=="picked from home") {
+        $message = $pick_up_message.' at '.$pickuppoint.' Time: '.$time.' on '.$date.', thank you.'. $extra_message;
         $sdbus=$student_row['pickup_vehicle'];
     }
 
@@ -174,7 +127,7 @@ if ($status=="dropped at school") {
 //enter the data
 if($driver->record_pickup()){
     //send a mobile notification to the parent app
-    $notifications->title = $sd_first_name." ".$status;
+    $notifications->title = $sd_first_name." ".$mode;
     $notifications->body = $message;
     $notifications->token = $token;
 
